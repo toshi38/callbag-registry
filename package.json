@@ -1,0 +1,31 @@
+{
+  "name": "callbag-registry",
+  "version": "0.0.0",
+  "description": "A callbag registry",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshi38/callbag-registry.git"
+  },
+  "author": "Stephen Lau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshi38/callbag-registry/issues"
+  },
+  "homepage": "https://github.com/toshi38/callbag-registry#readme",
+  "dependencies": {
+    "npm-registry-fetch": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.0.1"
+  }
+}
