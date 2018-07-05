@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
+    "build": "node -r babel-register src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
